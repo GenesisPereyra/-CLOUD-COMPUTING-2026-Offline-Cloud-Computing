@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+../data_private/
+data_private/
+
+*.h5
+*.keras
+*.npz
+
+.DS_Store
