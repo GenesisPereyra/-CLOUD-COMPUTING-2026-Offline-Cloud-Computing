@@ -13,7 +13,7 @@ Integrantes:
 
 ## Descripción
 
-Esta actividad implementa un flujo de aprendizaje federado utilizando la base de datos MNIST. Cada cliente entrena localmente un modelo CNN con una partición estadísticamente equivalente de los datos. Posteriormente, los modelos locales son combinados para obtener un modelo global.
+El modelo utilizado fue una red neuronal densa o MLP, distinta al modelo CNN visto en clase. La imagen de entrada de 28x28 píxeles se aplana mediante una capa Flatten y después pasa por dos capas densas de 128 y 64 neuronas con activación ReLU. Finalmente, una capa Softmax de 10 neuronas clasifica los dígitos del 0 al 9.
 
 ## Estructura del proyecto
 

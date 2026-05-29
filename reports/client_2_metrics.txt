@@ -1,4 +1,4 @@
 client_id=2
 num_samples=12000
-test_loss=0.07857248932123184
-test_accuracy=0.9760000109672546
+test_loss=0.07053650170564651
+test_accuracy=0.9803000092506409
